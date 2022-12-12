@@ -1,0 +1,47 @@
+body{
+    background-color: brown;
+}
+
+#menu{
+    background:yellow;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: fixed;
+    width:100%;
+    top:0;
+    left:0;
+}
+
+#show{
+    position:relative;
+    display: none;
+    width: 60%;
+    height: 40%
+}
+
+#close_image{
+    background-color: aqua;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+
+/* .showImage{
+    position: relative;
+    background-color: yellowgreen;
+    width: 1000px;
+    height: 450px;
+}
+
+.back{
+    position: absolute;
+    left: 0;
+    height: 100%;
+}
+
+.next{
+    position: absolute;
+    right: 0;
+    height: 100%;
+} */

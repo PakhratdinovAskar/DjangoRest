@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    {% csrf_token %}
+    <meta charset="UTF-8">
+    <title>Альбом</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'DjangoRestAjax/CSS/menu.css' %}">
+    <script src="{% static 'DjangoRestAjax/JS/register.js' %}"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+
+  <div id="menu">
+      <input type="hidden" id="hidden" value={{person}}>
+      <button onclick="getImage()">Фото</button>
+      <button onclick="video()">Видео</button>
+      <button>Документы</button>
+  </div>
+
+<div id="show">
+<!--    <a id="close_image" onclick="closeImage()">X</a>-->
+</div>
+
+</body>
+</html>

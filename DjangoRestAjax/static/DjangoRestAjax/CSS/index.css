@@ -1,0 +1,17 @@
+body{
+    background-color: darkgreen;
+}
+
+#div-form{
+    width: 300px;
+    position:absolute;
+    padding: 10%;
+    top: 10%;
+    left: 30%;
+    background-color: crimson;
+}
+
+input{
+    position: absolute;
+    right: 20%;
+}
